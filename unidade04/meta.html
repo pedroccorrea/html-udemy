@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Pedro Lucas">
+        <meta name="generator" content="VS Code">
+        <meta name="keywords" content="HTML5, Curso HTML, Curso Front End, CSS, Java script">
+        <meta name="description" content="Página do curso de HTML5">
+        <meta name="application-name" content="iMedia Brasil">
+        <meta http-equiv="refresh" content="4">
+
+ 
+    </head>
+    <body>
+        <p id="resultado"></p>
+    </body>
+    
+    <script>
+        function sorteioNumero(){
+            resultado.innerHTML = Math.random() * 50;
+        }
+        
+        window.onload = sorteioNumero;
+        
+    </script>
+</html>

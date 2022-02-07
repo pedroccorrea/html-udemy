@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-BR" >
     <head>
-        <title>Unidade 02 - Elemento Head</title>
         <meta charset="utf-8">
-        
+        <title>Unidade 02 - Elemento Head</title>
+        <style>
+            body {
+                background-color: #ccc;
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        </style>
+
     </head>
     <body>
+        <p id="nome">Esta é a segunda unidade.</p>
     </body>
+
+    <script>
+        function escreverNome() {
+            nome.innerHTML = "Pedro Lucas";
+        }
+        window.onload = escreverNome;
+    </script>
 </html>
