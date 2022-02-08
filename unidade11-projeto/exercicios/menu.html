@@ -5,17 +5,57 @@
         <title>Menu</title>
         
         <style>
-            
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+           body{
+               width: 98vh;
+               margin: auto;
+               margin-top: 5px;
+               
+           }
+           main {
+               padding: 0px;
+               margin: 0px;
+               width: 955px;
+               border: 1px solid lightgray;
+           }
+           header {
+               width: 955px;
+               height: 94px;
+           }
+           nav ul {
+               background-color: #5D240A;
+               
+           }
+           nav li {
+               display: inline-block;
+               padding: 10px 20px;
+           }
+           nav a {
+               text-decoration: none;
+               color: white;
+               font-family: Arial, Helvetica, sans-serif;
+               font-size: 0.70em;
+           }
+           nav li:hover{
+               background-color: rgb(165, 95, 42);
+           }
+
+           article ul {
+               list-style: none;
+           }
         </style> 
 	</head>
 
     <body>
         <main>
-            <!-- adicionar header -->
+            <header>
                 <img src="../imagens/topo_principal.jpg">
-            <!-- finalizar header -->
+            </header>
 
-            <!-- adicionar nav -->
+            <nav>
                 <ul>
                   <li><a href="home.html">Home</a></li>
                   <li><a href="info.html">Info</a></li>
@@ -25,12 +65,11 @@
                   <li><a href="menu.html">Menu</a></li>
                   <li><a href="review.html">Review</a></li>
                 </ul>
-            <!-- finalizar nav -->
+            </nav>
 
-            <!-- adicionar article -->
-                <!-- adicionar header -->
-                    <h1>Menu</h1>
-                <!-- finalizar header -->
+            <article>
+
+                <h1>Menu</h1>
                 
                 <h4>Appetizers</h4>
                 <p><img src="../imagens/appetizer.jpg" width="475" height="102" alt=""/></p>
@@ -68,7 +107,7 @@
                   <li>Alaskan Halibut with a Rich Loire Valley Beurre Blanc Sauce - served with mashed purple Peruvian potatoes and haricot verts.</li>
                   <li>Recommended pairing: '98 Passi Emilio Vineyards Sauvignon Blanc </li>
                 </ul>
-            <!-- finalizar article -->
+            <article>
 
             <!-- adicionar div de apoio -->
                 <section class="fotos_apoio">
@@ -87,10 +126,10 @@
                 </section>
             <!-- finalizar div de apoio -->
 
-            <!-- adicionar rodape -->
+            <footer>
                 <p>Cafe Fontenebleu - Rua Ernesto de Paula Santos, 187 Sala 506 - Recife-PE</p>
                 <p><small>&copy Copyright 2015 - iMedia Brasil todos os direitos reservados.</small></p>
-            <!-- finalizar rodape -->
+            </footer>
         </main>
 		
     </body>
